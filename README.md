@@ -44,5 +44,5 @@ Run the script from your terminal:
 ```
 python3 main.py --input-file data/sample.txt --output-file redacted_output.txt
 ```
-- ``--input-file``: he path to the source .txt file.
+- ``--input-file``: The path to the source .txt file.
 - ``--output-file``: The path where the redacted text will be saved.
