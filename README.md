@@ -22,7 +22,7 @@ This tool uses:
 - **Named Entity Recognition (NER)**: Identifies and categorizes entities in text.
   - "John Doe visited Paris": PERSON = John Doe, LOCATION = Paris
 - **spaCy**: Library for NLP in Python used to processing the text.
-- **Pre-trained Model** (``en_core_web_sm``): This project uses en_core_web_sm, a pre-trained English language model provided by spaCy trained to recognize a wide range of entities like people, organizations, locations, dates, and more. The script loads this model and uses it to find the sensitive information in the input files.
+- **Pre-trained Model** (``en_core_web_sm``): This project uses en_core_web_sm, a pre-trained English language model provided by spaCy trained to recognize entities like people, organizations, locations, and dates. The script loads this model and uses it to find the sensitive information in the input files.
 
 ## Setup
 1. Create and activate a virtual environment
