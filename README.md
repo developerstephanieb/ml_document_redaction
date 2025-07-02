@@ -1,4 +1,4 @@
-# ml-document-redaction
+# ML Document Redactor
 
 A simple Python tool to redact sensitive information from text files using Named Entity Recognition (NER) with spaCy.
 
@@ -7,7 +7,7 @@ This project provides a command-line tool to read a text file, identify named en
 ## Repository Structure
 
 ```
-interview_toolkit/
+ml_document_redactor/
 ├── README.md
 ├── data/
 │   └── sample.txt
